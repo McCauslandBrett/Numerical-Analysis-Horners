@@ -79,7 +79,7 @@ l=[4,5,6,7,8]
 r=Horners(l,2)
 print(r)
 #----------- Question 2 ----------
-equResult= (cos(1,0.000000001)-e_tothe_negx(1,0.000000001))/sin(1,0.000000001)
+equResult= (cos(0.008,0.000000001)- e_tothe_negx(0.008,0.000000001))/sin(0.008,0.000000001)
 #equResult=sin(1,0.0000000001)
 print(equResult)
 
