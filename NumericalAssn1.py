@@ -23,7 +23,6 @@ from sklearn.cross_validation import train_test_split
 def Horners(poly_coef,x):
   sum=0
   count=len(poly_coef)
-  print(poly_coef[count-1])
   for i in range(count-1):
     sum = (sum+poly_coef[i])*x
   return sum + poly_coef[count-1]
@@ -70,7 +69,7 @@ def e_tothe_negx(x,accurate_to):
     
   sum=0
   neg_x = x
-  print(neg_x,"-neg_x")
+  #print(neg_x,"-neg_x")
   for i in range(stop):
     sum += (pow(-1,i)*(pow(neg_x,i)*1/math.factorial(i)))
   return sum
